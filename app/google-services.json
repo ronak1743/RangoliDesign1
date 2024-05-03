@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1067734687862",
+    "project_id": "rangoli-design-b70b1",
+    "storage_bucket": "rangoli-design-b70b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067734687862:android:cb199df767ff30d1087f57",
+        "android_client_info": {
+          "package_name": "com.example.rangolidesign"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3lqBr_S6W66Hlr9K46OvqVrR1LHzUScY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

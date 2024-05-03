@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#001F3F"
+    tools:context=".MainActivity">
+  <androidx.cardview.widget.CardView
+      android:backgroundTint="#001F3F"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/_240sdp">
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:text="Contact Us"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+    </TextView>
+
+  <ImageView
+
+      android:id="@+id/click"
+      android:src="@drawable/rangoliback2"
+      android:padding="@dimen/_25sdp"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/_200sdp">
+
+  </ImageView>
+
+    <TextView
+        android:textColor="@color/gold"
+        android:id="@+id/policy"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="privacy policy"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Rangoli Desing"
+        android:textColor="@color/gold"
+        android:textStyle="bold"
+        android:textSize="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center"
+        ></TextView>
+  </androidx.cardview.widget.CardView>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:padding="@dimen/_5sdp"
+    android:id="@+id/recycle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</androidx.recyclerview.widget.RecyclerView>
+  </LinearLayout>
