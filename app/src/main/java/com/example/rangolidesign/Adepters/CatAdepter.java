@@ -31,6 +31,7 @@ public class CatAdepter extends RecyclerView.Adapter<CatAdepter.Myview> {
     @Override
     public CatAdepter.Myview onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.cat_desing,parent,false);
+
         return new Myview(view);
     }
 
